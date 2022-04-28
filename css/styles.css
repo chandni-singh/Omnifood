@@ -8,6 +8,8 @@ html {
   font-size: 62.5%;
   /* to hide mobile menu */
   overflow-x: hidden;
+  /* does not work for safari browser; instead smooth scrolling achieved using JS */
+  scroll-behavior: smooth;
 }
 
 body {
