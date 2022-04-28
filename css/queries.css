@@ -211,7 +211,7 @@
   }
 }
 
-/* below 544px (Smaller Tablets) */
+/* below 544px (Phones) */
 @media (max-width: 34em) {
   .grid {
     row-gap: 4.8rem;
@@ -281,6 +281,21 @@
   .cta-img-box {
     grid-row: 1;
     height: 32rem;
+  }
+}
+
+/* below 544px (IPhones) */
+@media (max-width: 27em) {
+  .hero-text-box .btn-outline {
+    margin: 2.4rem 0 0 -1.2rem;
+  }
+
+  .section-pricing .container {
+    margin: 0 3.2rem;
+  }
+
+  .plan-details {
+    margin-bottom: 4.2rem;
   }
 }
 
